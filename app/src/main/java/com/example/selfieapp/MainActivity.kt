@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
                         
                         Прикріплюю селфі для завдання.
                         
-                        Посилання на репозиторій: https://github.com/mapkeppp/androidSelfieApp/tree/main
+                        Посилання на репозиторій: https://github.com/mapkeppp/androidSelfieApp
                     """.trimIndent())
                     addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                 }
