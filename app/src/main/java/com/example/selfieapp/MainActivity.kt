@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(Intent.ACTION_SEND).apply {
                     type = "message/rfc822"
                     putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
-                    putExtra(Intent.EXTRA_SUBJECT, "DigiJED [Ваше ім'я та прізвище]")
+                    putExtra(Intent.EXTRA_SUBJECT, "DigiJED Клімішин Даніїл")
                     putExtra(Intent.EXTRA_STREAM, uri)
                     putExtra(Intent.EXTRA_TEXT, """
                         Добрий день!
